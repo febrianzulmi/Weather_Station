@@ -4,7 +4,7 @@ import paho.mqtt.client as mqtt
 import json
 
 app = Flask(__name__)
-model = joblib.load('model_rf_86%.pkl')  # Ganti dengan nama file model Anda
+model = joblib.load('model_rf_new.pkl')  # Ganti dengan nama file model Anda
 
 # MQTT setup
 mqtt_broker_address = "159.223.61.133"
