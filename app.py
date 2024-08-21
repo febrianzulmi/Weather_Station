@@ -10,12 +10,12 @@ model_data = joblib.load('model_rf_new.pkl')
 model = model_data[1]
 
 # MQTT setup
-mqtt_broker_address = "159.223.61.133"
+mqtt_broker_address = ""
 mqtt_broker_port = 1883
 mqtt_topic_sensor = "sensor/all"
 mqtt_topic_prediction = "prediction_result"
-mqtt_username = "mecharoot"
-mqtt_password = "mecharnd595"
+mqtt_username = ""
+mqtt_password = ""
 
 sensor_data = {"temperature": 0, "humidity": 0, "wind_speed": 0, "pressure": 0}
 new_data_received = False
